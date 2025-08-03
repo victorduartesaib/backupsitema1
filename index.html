@@ -43,11 +43,12 @@
   <script>
     const links = [
       "https://uteis01.pages.dev/servicobancario",
-      "https://modeloanuncio01.pages.dev/",
+      "anuncio.html",
       "https://geocredibnkvitoria.com/",
       "https://www.larissasaib.com.br/",
-      "https://espiritosantoes-com-brprincipal.pages.dev/12",
-      "https://espiritosantoes-com-brprincipal.pages.dev/33",
+      "guarapari.html",
+      "airbnb.html",
+      "bancario.html",
       "30.html"
     ];
 
@@ -58,7 +59,7 @@
     iframe.src = linkSorteado;
 
     // Só ativa a camada se for o link específico
-    if (linkSorteado === "https://uteis01.pages.dev/servicobancario" || linkSorteado==="https://geocredibnkvitoria.com/"|| linkSorteado==="https://www.larissasaib.com.br/" ||linkSorteado==="https://espiritosantoes-com-brprincipal.pages.dev/12"|| linkSorteado==="https://espiritosantoes-com-brprincipal.pages.dev/33") {
+    if (linkSorteado === "https://uteis01.pages.dev/servicobancario" || linkSorteado==="https://geocredibnkvitoria.com/"|| linkSorteado==="https://www.larissasaib.com.br/" ||linkSorteado==="guarapari.html"|| linkSorteado==="https://espiritosantoes-com-brprincipal.pages.dev/33"|| linkSorteado=="bancario.html") {
       overlay.style.display = "block"; // mostra a camada
       overlay.addEventListener('click', () => {
         window.open(linkSorteado, "_blank"); // ou faça qualquer outra ação
